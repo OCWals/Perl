@@ -13,9 +13,9 @@ open (my $file2, '<', 'test2.txt');
 close $file2;
 
 print "\nCopie terminée !\n";
-print "\nVoici le contenu du fichier copier :\n\n";
+print "\nVoici le contenu du fichier copié :\n\n";
 
-open (my $file, '<', 'test3.txt');
+open ($file, '<', 'test3.txt');
 	while (<$file>) {
 		print;
 	}
