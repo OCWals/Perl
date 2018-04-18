@@ -10,7 +10,7 @@ print "Bonjour, " . $name . " !";
 my $long = length "Bonjour, $name !";
 print "\nLongueur de la chaine : $long.\n";
 
-print "\nOn va maintenant affiché \"Bonjour !\" $long fois :\n\n";
+print "\nOn va maintenant affiché \"Bonjour !\" $long fois :\n";
 print "\tBonjour !\n" x $long;
 
 print "\nOn va maintenant faire la même chose avec une boucle while :\n";
