@@ -23,7 +23,12 @@ fonction0();
 print "\nBien, de quel nombre voulez vous maintenant avoir l'inverse : ";
 my $nb = <STDIN>;
 chomp($nb);
-
 inverse($nb);
+
+print "\n"
+
+
+
+
 
 print "\nFin.";
