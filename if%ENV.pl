@@ -6,3 +6,5 @@ if (%ENV) {
 } else {
 	print "Not okay";
 }
+
+<>
